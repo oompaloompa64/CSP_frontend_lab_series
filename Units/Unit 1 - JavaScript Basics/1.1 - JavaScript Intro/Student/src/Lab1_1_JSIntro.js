@@ -4,7 +4,7 @@
    =========================================================== */
 
 // TODO 1: Print your full name with console.log()
-
+console.log("Nico F");
 
 // TODO 2: Declare variable favoriteFood, assign "Steak", then reassign "Pizza"
 
