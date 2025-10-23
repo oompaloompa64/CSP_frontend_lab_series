@@ -29,7 +29,7 @@ console.log(morningRoutineChoice);
 console.log(afternoonStudyTopic);
 console.log(eveningRelaxationPlan);
 
-// 🚀 Stretch Goals (optional)
+// 🚀 Stretch Goals (optional).
 // - Create a variable age and print "I am X years old" using concatenation
 // - Repeat using template literals
 
