@@ -29,13 +29,13 @@ console.log(morningRoutineChoice);
 console.log(afternoonStudyTopic);
 console.log(eveningRelaxationPlan);
 
-// 🚀 Stretch Goals (optional).
+// 🚀 Stretch Goals (optional)
 // - Create a variable age and print "I am X years old" using concatenation
 // - Repeat using template literals
 
 /* ===========================================================
    🎟 EXIT TICKET
-   1. What new concept or skill did you learn in this lab?.
+   1. What new concept or skill did you learn in this lab?
    assigning constants and variables
    2. How did you apply logic or conditionals in your code?
    i didnt
