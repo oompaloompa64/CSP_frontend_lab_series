@@ -2,15 +2,15 @@
 
 1) Predict the output:
 ```js
-let x = 5;
-let y = "5";
+let x = 6;
+let y = "7";
 console.log(x + y);
 ```
 Explain why that output occurs.
 
 2) Fix the bug so each line logs a number, not a string:
 ```js
-let a = "7";
-let b = "3";
+let a = "4";
+let b = "1";
 console.log(a + b);
 ```

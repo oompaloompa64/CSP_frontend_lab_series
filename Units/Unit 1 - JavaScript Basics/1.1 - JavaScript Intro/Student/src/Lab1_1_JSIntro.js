@@ -7,31 +7,35 @@
 console.log("Nico F");
 
 // TODO 2: Declare variable favoriteFood, assign "Steak", then reassign "Pizza"
-var favoriteFood = "Steak";
+let favoriteFood = "Steak";
 console.log (favoriteFood);
-var favoriteFood = "Pizza";
+favoriteFood = "Pizza";
 console.log (favoriteFood);
 
 // TODO 3: Create variable mystery, assign a string, then a number, print type each time
-var mystery = "Hello";
-console.log(typeof mystery);
-var mystery = 4167;
-console.log(typeof mystery);
+let mystery = "anna";
+console.log(mystery + " " + typeof mystery);
+mystery = 4167;
+console.log(mystery + " funny " + typeof mystery);
 
 // TODO 4: Declare const schoolName, try to reassign
 const schoolname = "cchs";
+console.log(schoolname);
 
 // TODO 5: Create three valid camelCase variables and print them
-var morningRoutineChoice = "Jogging";
-var afternoonStudyTopic = "Algorithms";
-var eveningRelaxationPlan = "Reading";
-console.log(morningRoutineChoice);
-console.log(afternoonStudyTopic);
-console.log(eveningRelaxationPlan);
+let morningRoutine = "Jogging";
+let afternoonStudy = "Algorithms";
+let eveningRelaxation = "Reading";
+console.log(morningRoutine);
+console.log(afternoonStudy);
+console.log(eveningRelaxation);
 
 // 🚀 Stretch Goals (optional)
 // - Create a variable age and print "I am X years old" using concatenation
+let age = 15;
+console.log("I am " + age + " years old");
 // - Repeat using template literals
+console.log(`I am ${age} years old`);
 
 /* ===========================================================
    🎟 EXIT TICKET
@@ -40,7 +44,16 @@ console.log(eveningRelaxationPlan);
    2. How did you apply logic or conditionals in your code?
    i didnt
    3. What challenges did you encounter, and how did you solve them?
-   i didnt know what camel case was so i saked the ai what it was
+   i didnt know what camel case was so i asked the ai what it meant
    4. Where else could this programming concept be useful?
    constants and vars can be used for differentpourposes
    =========================================================== */
+
+let length = 10;
+let width = 5;
+
+let area = (length * width);
+let perimeter = 2*(length + width);
+
+console.log("Area: "+area);
+console.log(`Preimeter: ${perimeter}`);
