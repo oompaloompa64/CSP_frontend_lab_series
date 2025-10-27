@@ -2,25 +2,38 @@
  Lab 002 – Data Types in JavaScript
 */
 
-// TODO 1: Create variables age (34) and price (12.99), print both
-// TODO 1b: Divide "Sandra" by 2 and print result (expect NaN)
+const age = 34;
+const price = 12.99;
+console.log(age, price);
+const sandraDivision = "Sandra" / 2;
+console.log(sandraDivision);
 
-// TODO 2: Print basic math ops: + - * /
-// TODO 2b: Use exponentiation (2 ** 3) and modulo (7 % 2)
+const firstNumber = 10;
+const secondNumber = 3;
+console.log(firstNumber + secondNumber);
+console.log(firstNumber - secondNumber);
+console.log(firstNumber * secondNumber);
+console.log(firstNumber / secondNumber);
 
-// TODO 3: Assignment operators with score variable
+console.log(2 ** 3);
+console.log(7 % 2);
 
-// TODO 4: Expressions with operator precedence
+let score = 20;
+console.log(score);
+score += 5;
+console.log(score);
+score -= 3;
+console.log(score);
+score *= 2;
+console.log(score);
+score /= 4;
+console.log(score);
 
-// TODO 5: Strings (single, double, backticks)
+const precedenceA = 2 + 3 * 4 - 5;
+const precedenceB = (2 + 3) * (4 - 5);
+console.log(precedenceA, precedenceB);
 
-// TODO 6: String properties and methods
-// - greeting.length
-// - charAt(0), charAt(5), [3]
-// - indexOf("sad")
-// - repeat()
-// - substring, substr, slice examples
-
-// 🚀 Stretch Goals
-// - Even number check using %
-// - localeCompare() example
+const singleQuote = 'Single quotes';
+const doubleQuote = "Double quotes";
+const backtickString = `Template literal: ${singleQuote} & ${doubleQuote}`;
+console.log(singleQuote, doubleQuote, backtickString);
