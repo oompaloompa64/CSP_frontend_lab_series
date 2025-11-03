@@ -5,7 +5,7 @@
 
 // TODO 1: Declare one variable for each primitive type discussed in the PDF.
 // string, number, boolean, null, undefined
-let s; // = ?
+let s = ; // = ?
 let n; // = ?
 let b; // = ?
 let z; // = null
