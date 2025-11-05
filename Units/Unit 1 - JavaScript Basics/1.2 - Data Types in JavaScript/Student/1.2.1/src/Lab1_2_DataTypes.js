@@ -8,17 +8,17 @@ console.log(age, price);
 let sandraDivision = "Sandra" / 2;
 console.log(sandraDivision);
 
-let firstNumber = 10;
-let secondNumber = 3;
+let firstNumber = 6;
+let secondNumber = 7;
 console.log(firstNumber + secondNumber);
 console.log(firstNumber - secondNumber);
 console.log(firstNumber * secondNumber);
 console.log(firstNumber / secondNumber);
 
-console.log(2 ** 3);
-console.log(7 % 2);
+console.log(6 ** 7);
+console.log(6 % 7);
 
-let score = 20;
+let score = 10;
 console.log(score);
 score += 5;
 console.log(score);
