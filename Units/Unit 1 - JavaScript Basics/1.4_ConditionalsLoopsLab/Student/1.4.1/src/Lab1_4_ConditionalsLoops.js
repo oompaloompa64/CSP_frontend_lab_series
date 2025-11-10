@@ -47,7 +47,7 @@ if(number1 == number2){
 
 // TODO 3: Switch statement for language greeting
 
-let language = "Spanish";
+/*let language = "Spanish";
 
 switch(language){
     case "spanish":
@@ -88,13 +88,39 @@ switch (model){
     default:
         console.log("idk twin")
 
-}
+}*/
 
 // TODO 4: While loop (1 to 10)
 
+let count = 1;
+while(count <= 10){
+    console.log("value: ",count);
+    count++;
+}
+
+let count2 = 10;
+while(count2 >= 1){
+    console.log("value: ",count2);
+    count2--;
+}
+
 // TODO 5: Do..while loop (1 to 5)
+let i = 1;
+do{
+    console.log("value: ",i);
+    i++;
+} while(i <= 10);
 
 // TODO 6: For loop (1 to 20, print "ten" at 10 and "twenty" at 20)
+for(let j = 1; j <= 20; j++){
+    if(j == 10){
+        console.log("ten");
+    } else if (j == 20){
+        console.log("twenty");
+    } else {
+        console.log("value: ",j);
+    }
+}
 
 // TODO 7: Even/Odd loop (1 to 20)
 
