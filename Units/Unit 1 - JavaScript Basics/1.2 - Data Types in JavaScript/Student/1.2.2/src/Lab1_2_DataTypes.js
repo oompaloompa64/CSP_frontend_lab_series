@@ -1,11 +1,11 @@
 /* ===========================================================
    Lab 1.2 – Data Types
-   Primitive types, literals, typeof, and basic conversions.
+   Primitive types, typeof, and basic conversions.
    =========================================================== */
 
 // TODO 1: Declare one variable for each primitive type discussed in the PDF.
 // string, number, boolean, null, undefined
-let s = ; // = ?
+let s; // = ?
 let n; // = ?
 let b; // = ?
 let z; // = null
@@ -26,6 +26,6 @@ let u; // (leave undefined)
    🎟 EXIT TICKET
    1. Which data type(s) did you use today and why?
    2. Where did you encounter type conversion (implicit or explicit)?
-   3. One misconception I corrected or a tip I learned:
+   3. One misconception I corrected or a tip I learned.
    4. What would you try next time to debug faster?
    =========================================================== */

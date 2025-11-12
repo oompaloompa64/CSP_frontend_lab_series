@@ -40,13 +40,9 @@ console.log(`I am ${age} years old`);
 /* ===========================================================
    🎟 EXIT TICKET
    1. What new concept or skill did you learn in this lab?
-   assigning constants and variables
    2. How did you apply logic or conditionals in your code?
-   i didnt
    3. What challenges did you encounter, and how did you solve them?
-   i didnt know what camel case was so i asked the ai what it meant
    4. Where else could this programming concept be useful?
-   constants and vars can be used for differentpourposes
    =========================================================== */
 
 let length = 10;
