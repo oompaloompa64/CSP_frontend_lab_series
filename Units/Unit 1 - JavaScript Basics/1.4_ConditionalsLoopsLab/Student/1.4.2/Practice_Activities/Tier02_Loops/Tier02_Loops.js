@@ -1,10 +1,10 @@
-// Your code goes here. Follow the steps in README.md and run from index.html.
+// count up
 console.log("TEST - TIER 2")
 
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
-
+//countdown
 let num = 10;
 
 while (num > 0) {
